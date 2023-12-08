@@ -1,0 +1,31 @@
+/* components/Uploads.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/597/992/desktop-wallpaper-macos-monterey-wwdc-21-stock-gradients-4480x2520.jpg);
+
+  }
+  
+  .custom-table {
+    margin-left: 100px;
+    width: 80%;
+    max-height: 200px;
+    overflow-y: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(214, 203, 189);
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #352d2d;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #b09898;
+  }
+  

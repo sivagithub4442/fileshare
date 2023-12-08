@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/597/992/desktop-wallpaper-macos-monterey-wwdc-21-stock-gradients-4480x2520.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+  
+  
+  .wrapper {
+  background-color: transparent;
+  backdrop-filter: blur(6px);
+  height: 300px;
+  width: 600px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 5px 5px 30px rgb(75, 73, 73);
+  padding: 50px;
+  
+  
+  }
+
+  .button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0); /* Change text color when background changes */
+    box-shadow: 5px 3px 20px white;
+  }
+  
+ 
+  
+  
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    background-color: rgba(248, 220, 248, 0);
+    border-radius: 20px;
+  }
+
+  
+  
+
+  .link-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link-box a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .link-box button {
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .click{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  
